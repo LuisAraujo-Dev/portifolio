@@ -170,6 +170,8 @@ p {
   border-radius: 8px;
 }
 
+
+
 .card_content {
   margin: 2rem 1rem;
 }
@@ -210,6 +212,16 @@ p {
   max-width: 100%;
   overflow-x: hidden;
   justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding: 1.5rem 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  align-items: center;
 }
 
 .footer-credit img {
